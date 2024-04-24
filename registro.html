@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="web-font-files/lineicons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light" data-bs-theme="wihte">
+        <div class="container-fluid">
+            
+            <a href="#" class="navbar-brand" id="item_menu_inicio">Profesor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor02">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: rgba(255, 0, 0, 0.5);">
+                    <i class="lni lni-exit"></i>
+                    <span>Cerrar Sesión</span>
+                </a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+
+      <div class="py-2"><h1 class="center text-dark">Agregar Estudiante</h1></div>
+
+    
+<div class="container py-3">
+      <div class="row">
+        <h3 class="text-info">Completa la informacion del Estudiante</h3>
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 py-4 bg-white">
+            <div>
+            <label for="nombre" class="form-label text-secondary"><strong>Nombre Completo</strong></label>
+            <input class="form-control" type="text" id="nombre" autofocus>
+            </div>
+
+
+            <div class="py-4">
+                <label for="fecha" class="form-label text-secondary"><strong>Fecha de Nacimiento</strong></label>
+                <input class="form-control" type="text" id="fecha" placeholder="dd/mm/aaaa">
+            </div>
+
+            
+            
+        </div>
+
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 py-4 bg-white">
+            <div>
+            <label for="IDRol" class="form-label text-secondary"><strong>ID Rol</strong></label>
+            <input class="form-control" type="text" id="IDRol">
+            </div>
+            <div>
+                <div class="py-5"><strong class="text-secondary">Genero</strong></div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input py-1" type="radio" name="inlineRadioOptions" id="generom" value="option1">
+                    <label class="form-check-label" for="generom">Macho</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="generoh" value="option2">
+                    <label class="form-check-label" for="generoh">Hembra</label>
+                  </div>
+            </div>
+
+            <div class="py-4">
+                <label for="año" class="form-label text-secondary"><strong>Año</strong></label>
+                        <select class="form-select" id="año" rows="3" placeholder="Nombre del Videojuego">
+                           <option>Primero Año</option>
+                           <option>Segundo Año</option>
+                           <option>Tercer Año</option>
+                        </select>
+            </div>
+        </div>
+        <div class="boton">
+            <button type="button" class="btn btn-outline-secondary">Agregar</button>
+        </div>
+        
+
+
+      </div>
+</div>
+
+
+</body>
+</html>
